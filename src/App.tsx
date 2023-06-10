@@ -14,6 +14,9 @@ const AppWrapper = styled.div`
   background-color: ${({ theme }) => theme.background.primary};
   color: ${({ theme }) => theme.text.primary};
   transition: background-color 0.3s ease;
+  overflow-x: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
   a {
     color: ${({ theme }) => theme.text.primary};
     text-decoration: none;
