@@ -1,4 +1,3 @@
-import React from "react";
 import ResumePDF from "../../assets/Resume2023.pdf";
 
 export const Resume = () => {

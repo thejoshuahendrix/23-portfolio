@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 export const StyledBurger = styled.button<{ open: boolean }>`

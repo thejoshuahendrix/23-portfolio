@@ -1,7 +1,7 @@
 import { StyledMenu } from "./Navbar";
 import { Link } from "react-router-dom";
 
-const Menu = ({ open, setOpen }: any) => {
+const Menu = ({ open }: any) => {
   return (
     <StyledMenu id="burgermenu" open={open}>
       <Link style={{ textDecoration: "none" }} id="burgerhomelink" to="/">
