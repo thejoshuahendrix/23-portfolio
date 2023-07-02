@@ -10,7 +10,7 @@ export const DarkTheme: DefaultTheme = {
   },
   card: {
     borderRadius: '15px',
-    boxShadow: '10px 10px 10px 10px rgba(0,0,0,.4)',
+    boxShadow: '10px 4px 10px 10px rgba(0,0,0,.4)',
     boxShadowSmall: '4px 4px 4px 4px rgba(0,0,0,.4)',
     gradient: 'linear-gradient(151deg, rgba(0,100,100,1) 2%, rgba(0,165,254,1) 37%, rgba(120,1,245,1) 87%)'
   },

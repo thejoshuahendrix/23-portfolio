@@ -4,7 +4,6 @@ import { DarkTheme, LightTheme } from "./themes";
 import Navbar from "./components/layout/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Hero from "./components/layout/Hero";
-import Footer from "./components/layout/Footer";
 import Home from "./components/pages/Home";
 import { Projects } from "./components/pages/Projects";
 import { Resume } from "./components/pages/Resume";
@@ -53,7 +52,6 @@ const App = () => {
               <Route path="/privacy" element={<Privacy />} />
             </Routes>
           </PageWrapper>
-          {/* <Footer /> */}
         </Router>
       </AppWrapper>
     </ThemeProvider>
