@@ -30,6 +30,9 @@ const PageWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   margin-bottom: 100px;
+  overflow-x: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
 `;
 
 const App = () => {
