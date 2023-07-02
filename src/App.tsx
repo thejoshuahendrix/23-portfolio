@@ -53,7 +53,7 @@ const App = () => {
               <Route path="/privacy" element={<Privacy />} />
             </Routes>
           </PageWrapper>
-          <Footer />
+          {/* <Footer /> */}
         </Router>
       </AppWrapper>
     </ThemeProvider>
